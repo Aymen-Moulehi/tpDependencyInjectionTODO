@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 
 
 
-@Component
+@Repository
 public class ToDoDao implements IToDoDao {
 	public List<String> getCoursesList() {
 

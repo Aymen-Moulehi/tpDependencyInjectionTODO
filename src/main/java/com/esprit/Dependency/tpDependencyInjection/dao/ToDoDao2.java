@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 
 
 
-@Component
+@Repository
 @Primary
 public class ToDoDao2 implements IToDoDao {
 
